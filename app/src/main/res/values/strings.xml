@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fuud</string>
+    <string name="day">Dag</string>
+    <string name="mon">Mån</string>
+    <string name="tue">Tis</string>
+    <string name="wed">Ons</string>
+    <string name="thu">Tor</string>
+    <string name="fri">Fre</string>
+    <string name="sat">Lör</string>
+    <string name="sun">Sön</string>
+    <string name="recipe">Maträtt</string>
+    <string name="lock">Lås</string>
+    <string name="portion">Port.</string>
+    <string name="on">På</string>
+    <string name="spin">Snurra!</string>
+    <string name="done">Klar</string>
+    <string name="wegonnaeat">Ska vi äta: </string>
+    <string name="back">Tillbaka</string>
+    <string name="check">✔</string>
+    <string name="uncheck">✘</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

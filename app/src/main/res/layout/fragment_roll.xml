@@ -1,0 +1,512 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tryBlue"
+    android:orientation="vertical"
+    tools:context="finkevolution.com.fuud.RollFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@drawable/borders"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundheader"
+            android:fontFamily="@font/lbb"
+            android:gravity="center"
+            android:text="@string/day"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundheader"
+            android:fontFamily="@font/lbb"
+            android:gravity="center"
+            android:text="@string/recipe"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundheader"
+            android:fontFamily="@font/lbb"
+            android:gravity="center"
+            android:text="@string/portion"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundheader"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/lbb"
+                android:gravity="center|bottom"
+                android:text="@string/lock"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0"
+                android:fontFamily="@font/lbb"
+                android:gravity="center|top"
+                android:text="@string/day"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MondayLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/borders"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/mondayButton"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundcornerday"
+            android:fontFamily="@font/lbb"
+            android:text="@string/mon"
+            android:textAllCaps="false"
+            android:textColor="@color/goCharcoal"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/mondayDish"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="Korv Stroganoff"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/mondayPortion"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="5 portioner"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/mondayLock"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/redborder"
+            android:fontFamily="@font/chunkfive"
+            android:text="✘"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/TuesdayLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/borders"
+        android:fontFamily="@font/chunkfive"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/tuesdayButton"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundcornerday"
+            android:fontFamily="@font/lbb"
+            android:text="@string/tue"
+            android:textAllCaps="false"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tuesdayDish"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tuesdayPortion"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/tuesdayLock"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/redborder"
+            android:fontFamily="@font/chunkfive"
+            android:text="✘"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/WednesdayLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/borders"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/wednesdayButton"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundcornerday"
+            android:fontFamily="@font/lbb"
+            android:text="@string/wed"
+            android:textAllCaps="false"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/wednesdayDish"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/wednesdayPortion"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/wednesdayLock"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/redborder"
+            android:fontFamily="@font/chunkfive"
+            android:text="✘"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ThursdayLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/borders"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/thursdayButton"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundcornerday"
+            android:fontFamily="@font/lbb"
+            android:text="@string/thu"
+            android:textAllCaps="false"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/thursdayDish"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/thursdayPortion"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/thursdayLock"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/redborder"
+            android:fontFamily="@font/chunkfive"
+            android:text="✘"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/FridayLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/borders"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/fridayButton"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundcornerday"
+            android:fontFamily="@font/lbb"
+            android:text="@string/fri"
+            android:textAllCaps="false"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/fridayDish"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fridayPortion"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/fridayLock"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/redborder"
+            android:fontFamily="@font/chunkfive"
+            android:text="✘"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SaturdayLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/borders"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/saturdayButton"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundcornerday"
+            android:fontFamily="@font/lbb"
+            android:text="@string/sat"
+            android:textAllCaps="false"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/saturdayDish"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/saturdayPortion"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/saturdayLock"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/redborder"
+            android:fontFamily="@font/chunkfive"
+            android:text="✘"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SundayLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/borders"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/sundayButton"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundcornerday"
+            android:fontFamily="@font/lbb"
+            android:text="@string/sun"
+            android:textAllCaps="false"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/sundayDish"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/sundayPortion"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/chunkfive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/sundayLock"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/redborder"
+            android:fontFamily="@font/chunkfive"
+            android:text="✘"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SpinLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp">
+
+        <Button
+            android:id="@+id/spinButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundedcorner"
+            android:fontFamily="@font/lbb"
+            android:text="@string/spin"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundheader"
+            android:fontFamily="@font/lbb"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/finishButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundheader"
+            android:fontFamily="@font/lbb"
+            android:text="@string/done" />
+    </LinearLayout>
+</LinearLayout>

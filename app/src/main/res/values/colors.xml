@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="goGreen">#597D35</color>
+    <color name="goGreener">#03c04a</color>
+    <color name="goGrass">#03ac13</color>
+    <color name="goRed">#bc5449</color>
+    <color name="goCharcoal">#28231d</color>
+    <color name="goSage">#728c69</color>
+    <color name="goButter">#fde228</color>
+    <color name="goMustard">#e7b828</color>
+    <color name="tryBlue">#74AFAD</color>
+    <color name="grey">#F6F6F6</color>
+    <color name="brownie">#9a7a4e</color>
+</resources>
